@@ -6,9 +6,55 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 27 Feb 2019 15:18:57 +0000</lastBuildDate>
     
 	<atom:link href="http://infracode.ru/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Контакты</title>
+      <link>http://infracode.ru/contacts/</link>
+      <pubDate>Wed, 27 Feb 2019 15:18:57 +0000</pubDate>
+      
+      <guid>http://infracode.ru/contacts/</guid>
+      <description>Телефон: 8-800-555-81-89
+Адрес: 143441, Московская обл., Бизнес-парк &amp;ldquo;GreenWood&amp;rdquo;. МКАД 72 км.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://infracode.ru/products/</link>
+      <pubDate>Sat, 23 Feb 2019 11:47:28 +0000</pubDate>
+      
+      <guid>http://infracode.ru/products/</guid>
+      <description>test</description>
+    </item>
+    
+    <item>
+      <title>Наши услуги</title>
+      <link>http://infracode.ru/services/</link>
+      <pubDate>Sat, 23 Feb 2019 09:09:02 +0000</pubDate>
+      
+      <guid>http://infracode.ru/services/</guid>
+      <description> Планирование и внедрение контейнерных платформ
+ Адаптация подходов DevOps к нуждам Заказчика
+ Разработка и сопровождение интеграционных сервисов
+  </description>
+    </item>
+    
+    <item>
+      <title>О компании</title>
+      <link>http://infracode.ru/about/</link>
+      <pubDate>Sat, 23 Feb 2019 09:08:50 +0000</pubDate>
+      
+      <guid>http://infracode.ru/about/</guid>
+      <description>Инфракод – специализированная компания. Наш продукт – это профессиональные услуги в области микросервисной архитектуры приложений и практик DevOps.
+Цифровая трансформация крупных российских предприятий требует реализации принципиально новых подходов к созданию и управлению ИТ сервисами:
+ организация единого ландшафта разработки, тестирования и эксплуатации приложений
+ управление кодом приложений в режиме реальных потребностей предприятия
+ сокращение времени вывода новых сервисов в промышленную эксплуатацию
+  Для реализации проектов по цифровой трансформации и реализации запросов бизнеса мы создали ООО &amp;ldquo;Инфракод&amp;rdquo;.</description>
+    </item>
     
   </channel>
 </rss>

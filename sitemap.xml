@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
+      <loc>http://infracode.ru/contacts/</loc>
+      <lastmod>2019-02-27T15:18:57+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>http://infracode.ru/products/</loc>
+      <lastmod>2019-02-23T11:47:28+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>http://infracode.ru/services/</loc>
+      <lastmod>2019-02-23T09:09:02+00:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>http://infracode.ru/about/</loc>
+      <lastmod>2019-02-23T09:08:50+00:00</lastmod>
+    </url>
+  
+    <url>
       <loc>http://infracode.ru/</loc>
+      <lastmod>2019-02-27T15:18:57+00:00</lastmod>
       <priority>0</priority>
     </url>
   
