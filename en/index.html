@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Infracode</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+	<ul class="mnu-mob">
+		<li><a href="#about" class="slowly">About us</a></li>
+		<li><a href="#services" class="slowly">Services</a></li>
+		<li><a href="#contacts" class="slowly">Contacts</a></li>
+	</ul>
+
+	<!-- Header -->
+	<header class="header">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-8">
+					<ul class="mnu">
+						<li><a href="#about" class="slowly">About us</a></li>
+						<li><a href="#services" class="slowly">Our services</a></li>
+						<li><a href="#contacts" class="slowly">Contacts</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4">
+					<div class="header-right">
+						<a href="tel:8-800-555-81-89" class="phone"><img src="img/phone-icon.png" alt=""> 8-800-555-81-89</a>
+						<ul class="lang">
+							<li>
+								<a href="/en/index.html">En <span class="lang-arrow">></span></a>
+								<ul class="lang-drop">
+									<li><a href="../index.html">Ru</a></li>
+								</ul>
+							</li>
+						</ul>
+						<a href="#" class="toggle-nav"><span></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Main section -->
+	<div class="main">
+		<a href="#" class="logo"><img src="img/logo.png" alt="Infracode"></a>
+	</div>
+
+	<!-- About section -->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h3 class="about-title">About us</h3>
+					<p class="about-desc">Infracode is a specialized company. Our product is professional services in the field of micro-service application architecture and devops practice.</p>
+					<p class="about-desc">Digital transformation of large Russian enterprises requires the implementation of fundamentally new approaches to the creation and management of IT services:</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="about-item">
+						<img class="about-icon-desctop" src="img/about-icon-1.png" alt="">
+						<img class="about-icon-mob" src="img/about-mob-icon-1.png" alt="">
+						<p class="about-item-text">Organization of a unified landscape of development, testing and operating applications</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="about-item">
+						<img class="about-icon-desctop" src="img/about-icon-2.png" alt="">
+						<img class="about-icon-mob" src="img/about-mob-icon-2.png" alt="">
+						<p class="about-item-text">Manage application code in real enterprise needs</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="about-item">
+						<img class="about-icon-desctop" src="img/about-icon-3.png" alt="">
+						<img class="about-icon-mob" src="img/about-mob-icon-3.png" alt="">
+						<p class="about-item-text">Reducing the time to bring new services into commercial operation</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<p class="about-text">For the implementation of the digital transformation and the implementation of business requests, we created an LLC Infracode. Infracode is a group of professionals with practical experience in the implementation of projects on the stacks of red hat, nginx and other vendors of the IT market.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Services section -->
+	<div class="services" id="services">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h3 class="services-title">Our services</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="services-item">
+						<img src="img/services-icon-1.png" alt="">
+						<p class="services-item-text">Planning and implementation of container platforms</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="services-item">
+						<img src="img/services-icon-2.png" alt="">
+						<p class="services-item-text">Adapting DevOps approaches to customer needs</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="services-item">
+						<img src="img/services-icon-3.png" alt="">
+						<p class="services-item-text">Development and maintenance of integration services</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Callback section -->
+	<div class="callback">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h3 class="callback-title">Contacts</h3>
+					<p class="callback-desc">Email us if you have any questions. We have the answers for you.</p>
+					<form class="callback-form" action="https://formspree.io/cto@infracode.ru" method="POST">
+						<input class="callback-form-input" type="text" name="name" placeholder="Type name">
+						<input class="callback-form-input" type="email" name="email" placeholder="Type email">
+						<input class="callback-form-input" type="tel" name="phone" placeholder="Type your phone number" required>
+						<textarea class="callback-form-textarea" name="text" placeholder="Type your message"></textarea>
+						<input class="callback-form-btn" type="submit" value="Submit">
+						<div class="callback-form-success">
+							<h4>Спасибо за заявку!</h4>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="contacts" id="contacts">
+		<div class="container">
+			<div class="row">
+    <!--				<div class="col">
+					<h3 class="contacts-title">Contacts</h3>
+				</div> -->
+			</div>
+			<div class="row align-items-center">
+				<div class="col-xl-4">
+					<div class="contacts-item">
+						<img src="img/email-icon.png" alt="">
+						<div class="contacts-item-info">
+						<!--	<p class="contacts-item-text">Email:</p> -->
+							<a href="mailto:info@infracode.ru" class="contacts-email">info@infracode.ru</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div class="contacts-item">
+						<img src="img/phone-icon.png" alt="">
+						<div class="contacts-item-info">
+						<!--	<p class="contacts-item-text">Phone:</p> -->
+							<a href="tel:8-800-555-81-89" class="contacts-phone">8-800-555-81-89</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4">
+					<div class="contacts-item">
+						<img src="img/address-icon.png" alt="">
+						<div class="contacts-item-info">
+							<p class="contacts-item-text">143441, Moscow Region, GreenWood Business Park. MKAD 72 km.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
