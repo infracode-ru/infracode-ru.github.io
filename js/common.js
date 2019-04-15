@@ -43,21 +43,6 @@ $(document).ready(function() {
 		$('body').css('right', '0px');
 	});
 
-	//Отправка данных на почту
-	$(".callback-form").submit(function() {
-		var th = $(this);
-		$.ajax({
-			type: "POST",
-			url: "mail.php",
-			data: th.serialize()
-		}).done(function() {
-			$('.callback-form-success').css('transform', 'scale(1)');
-			setTimeout(function() {
-				$('.callback-form-success').css('transform', 'scale(0)');
-				th.trigger("reset");
-			}, 3000);
-		});
-		return false;
-	});
+
 
 });
